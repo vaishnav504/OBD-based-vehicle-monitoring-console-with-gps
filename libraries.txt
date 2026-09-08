@@ -1,0 +1,7 @@
+Adafruit GFX Library
+Adafruit SSD1306
+ESP32Servo
+LiquidCrystal I2C
+MD_MAX72XX
+MD_Parola
+TinyGPSPlus
