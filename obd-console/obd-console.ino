@@ -35,6 +35,7 @@ Preferences prefs;
 BluetoothSerial SerialBT;
 
 // ===== BLE OBD-II =====
+// use the BLEAddress, serviceUUID, and ioUUID of your obd to ble adaptor.
 static BLEAddress obdAddr("81:23:45:67:89:BA");
 static BLEUUID serviceUUID("0000fff0-0000-1000-8000-00805f9b34fb");
 static BLEUUID ioUUID("0000fff1-0000-1000-8000-00805f9b34fb");
