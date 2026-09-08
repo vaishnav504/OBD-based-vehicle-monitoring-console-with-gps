@@ -7,3 +7,5 @@ The system features several display interfaces, such as a MAX7219 4-in-1 LED mat
 The OLED is fitted with a menu-driven configuration system which uses a potentiometer and a push button, so that the user is able to browse through the settings, choose the parameters, set the displays, and alter the operating modes without the need for a computer or a mobile application.
 
 Because of its modular design it is possible to use a number of different monitoring modes and a personalised dashboard experience can be provided, the dashboard combining digital displays, graphical indicators, GPS information and analog-style servo instrumentation into one embedded vehicle monitoring console.
+
+Esp32 is paired to ELM327 ble adapter using the BLEAddress, serviceUUID, and ioUUID of the adaptor. It is acuired using nrf connect app.
