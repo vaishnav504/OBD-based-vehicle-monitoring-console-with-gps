@@ -35,6 +35,7 @@ Preferences prefs;
 BluetoothSerial SerialBT;
 
 // ===== BLE OBD-II =====
+// To connect the esp32 to elm327 ble adaptor the ble address serviceuuid and io uuid of the using adaptor is used. it is accuired using nrf connect app
 static BLEAddress obdAddr("81:23:45:67:89:BA");
 static BLEUUID serviceUUID("0000fff0-0000-1000-8000-00805f9b34fb");
 static BLEUUID ioUUID("0000fff1-0000-1000-8000-00805f9b34fb");
